@@ -3,7 +3,7 @@
 
 char="Best School"
 i="1"
-until [ $i -eq 10 ];
+until [ $i -eq 11 ];
 	do echo "$char"
 	((i++))
 done
