@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Script that displays best school 10 times and hi on line 9
+word1="Best School"
+word2="Hi"
+i=0
+while [ $i -lt 10 ]; do
+	if [ $i -eq 9 ]; then
+		echo "$word2"
+	fi
+	echo "$word1"
+	((i++))
+done
